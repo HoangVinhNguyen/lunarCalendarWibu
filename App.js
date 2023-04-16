@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import OclockComponent from './src/components/oclock-component';
+import LunarComponent from './src/components/lunar-component';
+import LunarCalendarComponent from './src/components/lunar-calendar-component';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <OclockComponent></OclockComponent>
+      <LunarComponent></LunarComponent>
+      <LunarCalendarComponent></LunarCalendarComponent>
     </View>
   );
 }
