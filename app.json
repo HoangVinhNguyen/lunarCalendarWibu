@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "lunarCalendarWibu",
+    "slug": "lunarCalendarWibu",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "lunarCalendarWibu"
+}
